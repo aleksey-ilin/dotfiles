@@ -1,0 +1,86 @@
+// vim:ts=4:sw=4:et
+{
+    // splitv split container with 2 children
+    "border": "none",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.7,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 768,
+               "width": 1024,
+               "x": 0,
+               "y": 0
+            },
+            "name": "ilin@z-arch:~/.i3",
+            "percent": 0.4,
+            "swallows": [
+               {
+               "class": "^Alacritty$",
+               "instance": "^Alacritty$"
+               // "title": "^ilin\\@z\\-arch\\:\\~\\/\\.i3$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 768,
+               "width": 1024,
+               "x": 0,
+               "y": 0
+            },
+            "name": "ilin@z-arch:~/.i3",
+            "percent": 0.6,
+            "swallows": [
+               {
+               "class": "^Alacritty$",
+               "instance": "^Alacritty$"
+               // "title": "^ilin\\@z\\-arch\\:\\~\\/\\.i3$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    // splith split container with 1 children
+    "border": "none",
+    "floating": "auto_off",
+    "layout": "splith",
+    "percent": 0.3,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1041,
+               "width": 1916,
+               "x": 2,
+               "y": 37
+            },
+            "name": "Telegram (89615)",
+            "percent": 1,
+            "swallows": [
+               {
+               "class": "^TelegramDesktop$",
+               "instance": "^telegram-desktop$"
+               // "title": "^Telegram\\ \\(89615\\)$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
